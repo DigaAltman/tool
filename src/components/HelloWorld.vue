@@ -37,10 +37,7 @@
       }
     },
     created() {
-      let _this = this;
-      http.request.get(serverUrl + "/static/result.json")
-        .then(res => _this.list = res.data)
-        .catch(err => alert("获取代码结果失败"));
+      
     }
   }
 </script>

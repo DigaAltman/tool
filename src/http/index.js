@@ -1,6 +1,7 @@
-import http from './HttpRequest';
+import request from './request';
+
 
 export default {
-  request: http,
-  server: 'http://localhost:8080'
+  request,
+  server: 'http://47.112.125.251'
 }
